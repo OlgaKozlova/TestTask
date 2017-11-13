@@ -1,0 +1,23 @@
+@import "../constants.scss";
+
+.selectPaymentTerm {
+  padding: 3em 1.5em 3em 3em;
+
+  .container {
+    margin: 0 1.5em 1.5em 0;
+  }
+
+  border-top: 2px solid $SECONDARY_BORDER_COLOR;
+
+  .title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: $MAIN_COLOR;
+    padding-bottom: 1.5em;
+  }
+
+  .description {
+    color: $ADDITIONAL_COLOR;
+    font-size: 0.9em;
+  }
+}

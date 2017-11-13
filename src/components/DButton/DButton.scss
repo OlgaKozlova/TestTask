@@ -1,0 +1,28 @@
+@import "../constants.scss";
+
+.button {
+  width: 150px;
+  padding: 15px;
+  font-size: 1.2em;
+  color: $BUTTON_TEXT_COLOR;
+  border-radius: 50px;
+  background: linear-gradient($BUTTON_MAIN_COLOR, $BUTTON_ADDITIONAL_COLOR);
+  box-shadow: 0 3px 0 $BUTTON_SHADOW_COLOR;
+  outline: none;
+  border: none;
+
+  &.disabled {
+    color: $BUTTON_DISABLED_COLOR;
+    background: none;
+    box-shadow: none;
+    border: 1px solid $BUTTON_DISABLED_COLOR;
+
+    &:active {
+      box-shadow: none;
+    }
+  }
+
+  &:active {
+    box-shadow: 0 3px 5px $BUTTON_SHADOW_COLOR inset;
+  }
+}

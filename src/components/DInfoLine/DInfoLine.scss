@@ -1,0 +1,16 @@
+@import "../constants.scss";
+
+.infoline {
+    background-color: $ADDITIONAL_BACKGROUND_COLOR;
+    text-align: center;
+    padding: 10px;
+
+    .child {
+        display: inline-block;;
+        vertical-align: middle;
+    }
+
+    .text {
+        color: $MAIN_COLOR;
+    }
+}

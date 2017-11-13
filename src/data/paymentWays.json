@@ -1,0 +1,58 @@
+{
+    "VISA": {
+        "text": "",
+        "description": "",
+        "icon": "visa",
+        "isGiftPossble": true,
+        "isPaymentTermAvailable": true,
+        "isAutoProlongationAvailable": true
+    },
+    "YANDEX_MONEY": {
+        "text": "",
+        "description": "",
+        "icon": "yandexmoney",
+        "isGiftPossble": true,
+        "isPaymentTermAvailable": true,
+        "isAutoProlongationAvailable": true
+    },
+    "PAYPAL": {
+        "text": "",
+        "description": "",
+        "icon": "paypal",
+        "isGiftPossble": true,
+        "isPaymentTermAvailable": true,
+        "isAutoProlongationAvailable": true
+    },
+    "WEBMONEY": {
+        "text": "",
+        "description": "",
+        "icon": "webmoney",
+        "isGiftPossble": true,
+        "isPaymentTermAvailable": true,
+        "isAutoProlongationAvailable": false
+    },
+    "SMS": {
+        "text": "SMS",
+        "description": "Только для России",
+        "icon": "",
+        "isGiftPossble": true,
+        "isPaymentTermAvailable": true,
+        "isAutoProlongationAvailable": true
+    },
+    "QIWI": {
+        "text": "",
+        "description": "",
+        "icon": "qiwi",
+        "isGiftPossble": true,
+        "isPaymentTermAvailable": true,
+        "isAutoProlongationAvailable": false
+    },
+    "GIFT_CODE": {
+        "text": "Подарочный код",
+        "description": "",
+        "icon": "",
+        "isGiftPossble": false,
+        "isPaymentTermAvailable": false,
+        "isAutoProlongationAvailable": false
+    }
+}

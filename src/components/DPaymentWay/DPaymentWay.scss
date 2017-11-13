@@ -1,0 +1,117 @@
+@import "../constants.scss";
+
+.paymentWay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px dashed $ADDITIONAL_BORDER_COLOR;
+    height: 80px;
+
+    &:hover{
+        background-color: $SECONDARY_BACKGROUND_COLOR;
+    }
+
+    &.disabled {
+        border: 1px dashed $DISABLED_BORDER_COLOR;
+        &:hover{
+            background-color: inherit;
+        }
+
+        .text,
+        .description {
+            color: $SECONDARY_COLOR;
+        }
+    }
+
+    &.shadowed {
+        &:hover {
+            .icon {
+                &.paypal {
+                    background-image: url("./paypal.png");
+                }
+
+                &.qiwi {
+                    background-image: url("./qiwi.png");
+                }
+
+                &.visa {
+                    background-image: url("./visa.png");
+                }
+
+                &.webmoney {
+                    background-image: url("./webmoney.png");
+                }
+
+                &.yandexmoney {
+                    background-image: url("./yandexmoney.png");
+                }
+            }
+        }
+        .icon {
+            &.paypal {
+                background-image: url("./paypal_shadowed.png");
+            }
+
+            &.qiwi {
+                background-image: url("./qiwi_shadowed.png");
+            }
+
+            &.visa {
+                background-image: url("./visa_shadowed.png");
+            }
+
+            &.webmoney {
+                background-image: url("./webmoney_shadowed.png");
+            }
+
+            &.yandexmoney {
+                background-image: url("./yandexmoney_shadowed.png");
+            }
+        }
+    }
+
+    &.selected {
+        background-color: $SECONDARY_BACKGROUND_COLOR;
+        border: 1px solid $SECONDARY_BACKGROUND_COLOR;
+    }
+
+    .text {
+        color: $MAIN_COLOR;
+    }
+
+    .description {
+        color: $SECONDARY_COLOR;
+    }
+
+    .icon {
+        height: 1.5em;
+        width: 100%;
+        background-size: auto 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        &.paypal {
+            background-image: url("./paypal.png");
+        }
+
+        &.qiwi {
+            background-image: url("./qiwi.png");
+        }
+
+        &.visa {
+            background-image: url("./visa.png");
+        }
+
+        &.webmoney {
+            background-image: url("./webmoney.png");
+        }
+
+        &.yandexmoney {
+            background-image: url("./yandexmoney.png");
+        }
+    }
+}
+
+

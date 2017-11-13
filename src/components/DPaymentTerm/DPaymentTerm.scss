@@ -1,0 +1,57 @@
+@import "../constants.scss";
+
+.paymentTerm {
+    padding: 0.5em 1em;
+    box-sizing: border-box;
+    border: 1px dashed $ADDITIONAL_BORDER_COLOR;
+    width: 100%;
+    position: relative;
+
+    &:hover{
+        background-color: $SECONDARY_BACKGROUND_COLOR;
+    }
+
+    &.selected {
+        background-color: $SECONDARY_BACKGROUND_COLOR;
+        border: 1px solid $SECONDARY_BACKGROUND_COLOR;
+    }
+
+    .image {
+        width: 70px;
+        height: 45px;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        &.green {
+            background-image: url('./green.png');
+        }
+        &.grey {
+            background-image: url('./grey.png');
+        }
+        &.gold {
+            background-image: url('./gold.png');
+        }
+    }
+
+    .priceTotal {
+        color: $SUPPLEMENTARY_COLOR;
+    }
+
+    .pricePerMonth {
+        font-size: 2em;
+        color: $MAIN_COLOR;
+    }
+
+    .measurementPerMonth {
+        color: $MAIN_COLOR;
+    }
+
+    .term {
+        color: $SUPPLEMENTARY_COLOR;
+    }
+}
+
+

@@ -1,0 +1,7 @@
+const prefix = 'SUBSCRIPTION_VIEW_';
+
+export const SET_PAYMENT_WAY = `${prefix}SET_PAYMENT_WAY`;
+export const TOGGLE_IS_GIFT = `${prefix}SET_IS_GIFT`;
+export const SET_PAYMENT_TERM = `${prefix}SET_PAYMENT_TERM`;
+export const TOGGLE_SHOULD_PROLONG_AUTOMATICALLY = `${prefix}SET_SHOULD_PROLONG_AUTOMATICALLY`;
+export const TOGGLE_SHOULD_ADD_DISCOUNT = `${prefix}SET_SHOULD_ADD_DISCOUNT`;

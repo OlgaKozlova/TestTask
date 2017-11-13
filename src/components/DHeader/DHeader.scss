@@ -1,0 +1,21 @@
+@import "../constants.scss";
+
+.header {
+  min-height: 3em;
+  padding-top: 3em;
+  color: $HEADER_COLOR;
+  text-align: center;
+
+  .line {
+    border: 1px solid $HEADER_COLOR;
+  }
+
+  .logo {
+    height: 5em;
+    display: block;
+    position: relative;;
+    top: -2em;
+    margin: 0 auto -2em;
+  }
+
+}

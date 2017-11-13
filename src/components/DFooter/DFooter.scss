@@ -1,0 +1,11 @@
+@import "../constants.scss";
+
+.footer {
+    border-top: 1px solid $MAIN_BORDER_COLOR;
+
+    .child {
+        color: $ADDITIONAL_COLOR;
+        display: inline-block;
+        padding: 20px 20px 20px 0;
+    }
+}

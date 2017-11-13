@@ -1,0 +1,33 @@
+.column {
+  @media (max-width: 600px) {
+    &.col-xs-12 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    /*other not implemented*/
+  }
+
+  @media (min-width: 599px) and (max-width: 899px){
+    &.col-s-6 {
+      flex: 0 0 calc(100%/2);
+      max-width: calc(100%/2);
+    }
+    /*other not implemented*/
+  }
+
+  @media (min-width: 900px) and (max-width: 1149px) {
+    &.col-m-4 {
+      flex: 0 0 calc(100%/3);
+      max-width: calc(100%/3);
+    }
+    /*other not implemented*/
+  }
+
+  @media (min-width: 1150px) {
+    &.col-l-3 {
+      flex: 0 0 calc(100%/4);
+      max-width: calc(100%/4);
+    }
+    /*other not implemented*/
+  }
+}

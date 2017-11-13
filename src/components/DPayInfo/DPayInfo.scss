@@ -1,0 +1,35 @@
+@import "../constants.scss";
+
+.payInfo {
+  display: inline-block;
+  margin-right: 10px;
+
+  .icon,
+  .text {
+    display: inline-block;
+    max-width: 250px;
+    vertical-align: top;
+  }
+
+  .icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: 3px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &.commision {
+      background-image: url('./comission.png');
+    }
+    &.security {
+      background-image: url('./security.png');
+    }
+  }
+
+  .text {
+    font-size: 0.9em;
+    color: $ADDITIONAL_COLOR;
+  }
+}

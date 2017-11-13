@@ -1,0 +1,18 @@
+@import "../constants.scss";
+
+.totalprice {
+  padding: 50px;
+  border-top: 2px solid $SECONDARY_BORDER_COLOR;
+
+  .title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: $MAIN_COLOR;
+    padding-bottom: 20px;
+  }
+
+  .note {
+    color: $ADDITIONAL_COLOR;
+    font-size: 0.9em;
+  }
+}

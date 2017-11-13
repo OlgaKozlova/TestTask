@@ -1,0 +1,15 @@
+@import "../constants.scss";
+
+.subheader {
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5em;
+  color: $MAIN_COLOR;
+}
+
+.description {
+  color: $ADDITIONAL_COLOR;
+  margin-bottom: 10px;
+}

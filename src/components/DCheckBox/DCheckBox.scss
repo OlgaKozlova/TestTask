@@ -1,0 +1,45 @@
+@import "../constants.scss";
+
+.container {
+    margin-top: 0.5em;
+
+    .textsContainer {
+        display: inline-block;
+    }
+
+    .checkbox {
+        opacity: 0;
+        position: absolute;
+    }
+
+    .checkbox + .textsContainer > .label::before {
+        display: inline-block;
+        vertical-align: middle;
+        content: "";
+        width: 12px;
+        height: 12px;
+        margin: 0 4px 0 0;
+        border: solid 1px $CHECKBOX_DISABLED_BORDER_COLOR;
+        border-radius: 3px;
+        background: radial-gradient($CHECKBOX_DISABLED_MAIN_COLOR, $CHECKBOX_DISABLED_ADDITIONAL_COLOR);
+    }
+
+    .checkbox:checked + .textsContainer > .label::before {
+        border: solid 1px $CHECKBOX_BORDER_COLOR;
+        background: url("./checkbox-tick.png");
+        background-size: 10px 10px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .label {
+        color: $MAIN_COLOR
+    }
+
+    .description {
+        margin-left: 17px;
+        color: $ADDITIONAL_COLOR;
+        font-size: 0.9em;
+    }
+
+}

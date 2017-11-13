@@ -1,0 +1,10 @@
+@import "../constants.scss";
+
+.payblock {
+  background-color: $ADDITIONAL_BACKGROUND_COLOR;
+  padding: 50px;
+
+  .infoblock {
+    margin-top: 30px;
+  }
+}
